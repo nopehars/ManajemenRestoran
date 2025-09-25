@@ -1,0 +1,21 @@
+# Ignore compiled class files
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore data files (hasil runtime)
+*.dat
+
+# Ignore IDE settings
+.idea/
+.vscode/
+
+# Ignore build folders
+/bin/
+/out/
+/target/
+
+# Ignore OS generated files
+Thumbs.db
+.DS_Store
