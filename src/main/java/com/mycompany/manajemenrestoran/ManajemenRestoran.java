@@ -251,6 +251,7 @@ public class ManajemenRestoran {
         }
     }
 
+    @SuppressWarnings("unchecked")
     private static void muatMenuDariFile() {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream("menu.dat"))) {
             List<MenuItem> daftarMenu = (List<MenuItem>) ois.readObject();
